@@ -6,45 +6,78 @@
   <title>Baumarket Lezhë - Daniel Marku</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      margin: 30px;
-      background-color: #f9f9f9;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #eef2f7;
+      margin: 0;
+      padding: 0;
       color: #333;
     }
-    h1 {
-      color: #1a73e8;
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      letter-spacing: 1.2px;
     }
-    img {
-      max-width: 100%;
-      height: auto;
-      margin-bottom: 15px;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-    }
-    .container {
-      max-width: 800px;
-      margin: auto;
+    main {
+      max-width: 900px;
+      margin: 30px auto;
       background: white;
-      padding: 20px;
       border-radius: 10px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      padding: 20px 30px;
+    }
+    h2 {
+      color: #007bff;
+      margin-top: 0;
     }
     p {
-      line-height: 1.6;
+      line-height: 1.5;
+      font-size: 1.1rem;
+    }
+    .gallery {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 280px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+      color: #666;
+      margin-top: 40px;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Baumarket Lezhë</h1>
-    <p><strong>Pronari:</strong> Daniel Marku</p>
-    <p>Baumarket në Lezhë ofron materiale ndërtimi me cilësi të lartë për të gjitha nevojat tuaja.</p>
-
-    <h2>Produktet tona</h2>
-    <img src="https://images.unsplash.com/photo-1581093588401-799f3bfcf6cf?auto=format&fit=crop&w=800&q=80" alt="Materiale ndërtimi" />
-    <img src="https://images.unsplash.com/photo-1590080877777-68c5a9a134d3?auto=format&fit=crop&w=800&q=80" alt="Tulla dhe beton" />
+  <header>Baumarket Lezhë - Daniel Marku</header>
+  <main>
+    <h2>Për pronarin dhe shërbimet</h2>
+    <p>Daniel Marku është pronar i Baumarket në Lezhë, një dyqan i specializuar në materiale ndërtimi me cilësi të lartë. Ne ofrojmë produkte të ndryshme si tulla, beton, hekur dhe gjithçka tjetër për ndërtim, me shërbim të shpejtë dhe këshillim profesional.</p>
     
-    <p>Ne ofrojmë gjithashtu këshillim profesional dhe shërbim të shpejtë për klientët tanë.</p>
-  </div>
+    <h2>Produktet tona</h2>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1581093588401-799f3bfcf6cf?auto=format&fit=crop&w=400&q=80" alt="Materiale ndërtimi" />
+      <img src="https://images.unsplash.com/photo-1590080877777-68c5a9a134d3?auto=format&fit=crop&w=400&q=80" alt="Tulla dhe beton" />
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Hekur ndërtimi" />
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 Baumarket Lezhë - Daniel Marku. Të gjitha të drejtat e rezervuara.
+  </footer>
 </body>
 </html>
