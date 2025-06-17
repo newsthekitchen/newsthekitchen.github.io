@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Baumarketi Daniel Marku - Materiale Ndërtimi në Lezhë</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #005f73;
+      color: white;
+      padding: 20px 10px;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    nav {
+      background: #0a9396;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #005f73;
+      border-bottom: 3px solid #0a9396;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+    }
+    p {
+      line-height: 1.6;
+      font-size: 1.1rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    }
+    footer {
+      background-color: #005f73;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+    @media(max-width: 600px) {
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>Baumarketi Daniel Marku</header>
+<nav>
+  <a href="#rreth">Rreth Nesh</a>
+  <a href="#produkte">Produktet</a>
+  <a href="#kontakt">Kontakti</a>
+</nav>
+
+<section id="rreth">
+  <h2>Rreth Baumarketit</h2>
+  <p>
+    Baumarketi Daniel Marku është dyqan lider në Lezhë për materialet më cilësore të ndërtimit.
+    Me vite përvojë dhe staf profesional, ne ofrojmë produkte të ndryshme për ndërtim, renovim dhe dekorim,
+    duke siguruar shërbim të shpejtë dhe çmime konkurruese.
+  </p>
+  <p>
+    Vendodhja jonë strategjike në Lezhë na lejon të ofrojmë produktet më të mira për klientët tanë në gjithë rajonin.
+    Ne besojmë në cilësi dhe besueshmëri dhe jemi këtu për të përmbushur çdo nevojë ndërtimi tuajën.
+  </p>
+</section>
+
+<section id="produkte">
+  <h2>Produktet tona kryesore</h2>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1590080877777-9c3b2a76f0f4?auto=format&fit=crop&w=600&q=80" alt="Çimento dhe material ndërtimi" />
+    <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=600&q=80" alt="Blloqe betoni" />
+    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80" alt="Materiale druri" />
+    <img src="https://images.unsplash.com/photo-1516661743809-0c7e18ee60f6?auto=format&fit=crop&w=600&q=80" alt="Tubacione dhe pajisje" />
+  </div>
+</section>
+
+<section id="kontakt">
+  <h2>Kontakti</h2>
+  <p><strong>Pronari:</strong> Daniel Marku</p>
+  <p><strong>Vendodhja:</strong> Lezhë, Shqipëri</p>
+  <p><strong>Telefoni:</strong> +355 69 123 4567</p>
+  <p><strong>Email:</strong> info@baumarketilezhe.al</p>
+  <p>Na kontaktoni për oferta dhe këshilla mbi materialet e ndërtimit!</p>
+</section>
+
+<footer>
+  &copy; 2025 Baumarketi Daniel Marku - Të gjitha të drejtat e rezervuara.
+</footer>
+
+</body>
+</html>
